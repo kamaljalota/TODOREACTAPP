@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TODOREACTAPP/static/css/main.b54e71da.css",
+    "main.js": "/TODOREACTAPP/static/js/main.85f19b41.js",
+    "static/js/911.caa8993e.chunk.js": "/TODOREACTAPP/static/js/911.caa8993e.chunk.js",
+    "static/js/956.ba2cf2c9.chunk.js": "/TODOREACTAPP/static/js/956.ba2cf2c9.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/TODOREACTAPP/static/js/787.28cb0dcd.chunk.js",
+    "static/js/962.e931459b.chunk.js": "/TODOREACTAPP/static/js/962.e931459b.chunk.js",
+    "index.html": "/TODOREACTAPP/index.html",
+    "main.b54e71da.css.map": "/TODOREACTAPP/static/css/main.b54e71da.css.map",
+    "main.85f19b41.js.map": "/TODOREACTAPP/static/js/main.85f19b41.js.map",
+    "911.caa8993e.chunk.js.map": "/TODOREACTAPP/static/js/911.caa8993e.chunk.js.map",
+    "956.ba2cf2c9.chunk.js.map": "/TODOREACTAPP/static/js/956.ba2cf2c9.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/TODOREACTAPP/static/js/787.28cb0dcd.chunk.js.map",
+    "962.e931459b.chunk.js.map": "/TODOREACTAPP/static/js/962.e931459b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54e71da.css",
+    "static/js/main.85f19b41.js"
+  ]
+}
