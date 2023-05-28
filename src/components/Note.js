@@ -5,19 +5,8 @@ import NoteItem from './NoteItem';
 import { useNavigate } from 'react-router-dom';
 
 export default function Note(props) {
-  const drop=(e)=>{
-    e.preventDefault();
-    const card_id = e.dataTransfer.getData('card_id');
-    console.log(card_id);
-    const card = document.getElementById(card_id);
-    card.style.display = 'block';
-   e.target.appendChild(card);
-
-  }
-  const dragOver =e=>{console.log('div');
-    e.preventDefault();
-    
-  }
+  
+ 
   const navigate = useNavigate();
   const getAlert = props.getAlert;
   console.log(getAlert);
@@ -88,8 +77,7 @@ console.log(note._id);
 </div>
       <div  id="board-1"
      className ="row board"
-     onDrop={drop}
-     onDragOver={dragOver}>
+     >
       <h1>Notes ----</h1>
 {notes.map((note)=>{
     return <NoteItem key={note._id} update={update} note={note}/>

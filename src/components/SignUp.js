@@ -111,11 +111,12 @@ export default function SignUp() {
             <span className="text-danger">{user.passwordError}</span>
           </div>
           <button type="submit" className="btn btn-primary">
-            Add Note
+            Sign Up
           </button>
         </form>
       </div>
-      <Child />
+      {//<Child />
+}
     </div>
   );
 }

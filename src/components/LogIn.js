@@ -105,20 +105,22 @@ window.confirmationResult.confirm(code).then((result) => {
   </div>
   
   </form>
-<form onSubmit={onSignInSubmit}><div className="mb-3">
-    <label htmlFor="phone" className="form-label">Phone Number</label>
-    <div id='sign-in-button'></div>
-    <input type="number" className="form-control" id="phone" onChange={onChangeOtp} name='phone'/>
-    <button type='submit' className='my-2'>Submit</button>
-  </div>
-  </form>
-  <form onSubmit={onSubmitOtp}>
-  <div className="mb-3">
-    <label htmlFor="otp" className="form-label">OTP</label>
-    <input type="number" className="form-control" id="otp" onChange={onChangeOtp} name='otp'/>
-    <button type='submit' className='my-2'>Submit</button>
-  </div></form>
-  <button disabled ={ user2.refreshToken.length < 1} type="submit" className="btn btn-primary" onClick={handleUsers}>Login </button>
+{
+  //<form onSubmit={onSignInSubmit}><div className="mb-3">
+    //<label htmlFor="phone" className="form-label">Phone Number</label>
+    //<div id='sign-in-button'></div>
+   // <input type="number" className="form-control" id="phone" onChange={onChangeOtp} name='phone'/>
+  //  <button type='submit' className='my-2'>Submit</button>
+ // </div>
+ // </form>
+ // <form onSubmit={onSubmitOtp}>
+ // <div className="mb-3">
+  //  <label htmlFor="otp" className="form-label">OTP</label>
+  //  <input type="number" className="form-control" id="otp" onChange={onChangeOtp} name='otp'/>
+  //  <button type='submit' className='my-2'>Submit</button>
+  //</div></form> disabled ={ user2.refreshToken.length < 1}
+}
+  <button  type="submit" className="btn btn-primary" onClick={handleUsers}>Login </button>
     </div>
     </div>
     

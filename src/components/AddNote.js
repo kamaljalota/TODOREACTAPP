@@ -1,5 +1,4 @@
 import React,{useContext, useState} from 'react';
-import Draggable from 'react-draggable';
 import {NoteContext} from '../context/NoteState'
 
 export default function AddNote(props) {
@@ -36,9 +35,9 @@ export default function AddNote(props) {
   <div className="mb-3">
     <label htmlFor="tag" className="form-label">Tag</label>
     <input type="text" className="form-control" id="tag" value={note.tag} onChange={onChange} name='tag'/>
-  </div> <Draggable>
+  </div> 
   <button type="submit" className="btn btn-primary" onClick={handleAddedNotes}>Add Note</button>
-  </Draggable>
+ 
 </form>
 
     </div>
